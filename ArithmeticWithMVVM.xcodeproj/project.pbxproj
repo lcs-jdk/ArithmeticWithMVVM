@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1FBD20052D6977F000A5D2D1 /* ArithmeticWithMVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBD20012D6977F000A5D2D1 /* ArithmeticWithMVVMApp.swift */; };
+		1FBD20062D6977F000A5D2D1 /* DivisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBD20032D6977F000A5D2D1 /* DivisionView.swift */; };
+		1FBD20072D6977F000A5D2D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBD1FFF2D6977F000A5D2D1 /* Preview Assets.xcassets */; };
+		1FBD20082D6977F000A5D2D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBD20022D6977F000A5D2D1 /* Assets.xcassets */; };
+		1FBD200F2D6978E800A5D2D1 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBD200E2D6978E800A5D2D1 /* Division.swift */; };
+		1FBD20112D69793500A5D2D1 /* DivisionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBD20102D69793500A5D2D1 /* DivisionViewModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1FBD1FEE2D68EE2600A5D2D1 /* ArithmeticWithMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArithmeticWithMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBD1FFF2D6977F000A5D2D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FBD20012D6977F000A5D2D1 /* ArithmeticWithMVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticWithMVVMApp.swift; sourceTree = "<group>"; };
+		1FBD20022D6977F000A5D2D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FBD20032D6977F000A5D2D1 /* DivisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionView.swift; sourceTree = "<group>"; };
+		1FBD200E2D6978E800A5D2D1 /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
+		1FBD20102D69793500A5D2D1 /* DivisionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		1FBD1FF02D68EE2600A5D2D1 /* ArithmeticWithMVVM */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ArithmeticWithMVVM;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1FBD1FEB2D68EE2600A5D2D1 /* Frameworks */ = {
@@ -32,7 +39,7 @@
 		1FBD1FE52D68EE2600A5D2D1 = {
 			isa = PBXGroup;
 			children = (
-				1FBD1FF02D68EE2600A5D2D1 /* ArithmeticWithMVVM */,
+				1FBD20042D6977F000A5D2D1 /* ArithmeticWithMVVM */,
 				1FBD1FEF2D68EE2600A5D2D1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,51 @@
 				1FBD1FEE2D68EE2600A5D2D1 /* ArithmeticWithMVVM.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1FBD20002D6977F000A5D2D1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1FBD1FFF2D6977F000A5D2D1 /* Preview Assets.xcassets */,
+				1FBD20022D6977F000A5D2D1 /* Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FBD20042D6977F000A5D2D1 /* ArithmeticWithMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				1FBD20012D6977F000A5D2D1 /* ArithmeticWithMVVMApp.swift */,
+				1FBD200C2D69781200A5D2D1 /* Model */,
+				1FBD200D2D69781600A5D2D1 /* ViewModels */,
+				1FBD200B2D69780E00A5D2D1 /* Views */,
+				1FBD20002D6977F000A5D2D1 /* Preview Content */,
+			);
+			path = ArithmeticWithMVVM;
+			sourceTree = "<group>";
+		};
+		1FBD200B2D69780E00A5D2D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1FBD20032D6977F000A5D2D1 /* DivisionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1FBD200C2D69781200A5D2D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1FBD200E2D6978E800A5D2D1 /* Division.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1FBD200D2D69781600A5D2D1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1FBD20102D69793500A5D2D1 /* DivisionViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +111,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				1FBD1FF02D68EE2600A5D2D1 /* ArithmeticWithMVVM */,
 			);
 			name = ArithmeticWithMVVM;
 			packageProductDependencies = (
@@ -109,6 +158,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FBD20072D6977F000A5D2D1 /* Preview Assets.xcassets in Resources */,
+				1FBD20082D6977F000A5D2D1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FBD200F2D6978E800A5D2D1 /* Division.swift in Sources */,
+				1FBD20052D6977F000A5D2D1 /* ArithmeticWithMVVMApp.swift in Sources */,
+				1FBD20062D6977F000A5D2D1 /* DivisionView.swift in Sources */,
+				1FBD20112D69793500A5D2D1 /* DivisionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

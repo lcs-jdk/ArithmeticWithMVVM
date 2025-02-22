@@ -11,7 +11,7 @@ import SwiftUI
 struct ArithmeticWithMVVMApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DevideView()
         }
     }
 }
