@@ -7,6 +7,7 @@
 
 import Foundation
 
+@Observable
 class DivisionViewModel {
     //MARK: Stored Properties
     var providedDividend: String

@@ -23,8 +23,8 @@ struct DevideView: View {
             TextField("divisor", text: $viewModel.providedDivisor)
             
             // OUTPUT
-            if let power = viewModel.division {
-                Text("Result is: \(Division.result)")
+            if let division = viewModel.division {
+                Text("Quotient is \(division.quotient), Remainder is \(division.remainder)")
             }
             Text(viewModel.recoverySuggestion)
      
