@@ -26,8 +26,18 @@ struct DevideView: View {
             if let division = viewModel.division {
                 Text("Quotient is \(division.quotient), Remainder is \(division.remainder)")
             }
+            
             Text(viewModel.recoverySuggestion)
-     
+            // Add a button so that the result can be saved
+            Button {
+                viewModel.saveResult()
+                // DEBUG: Show how many items are in the resultHistory array
+                print("There are \(viewModel.resultHistory.count) elements in the resultHistory array.")
+            } label: {
+                Text("Save")
+            }
+            .buttonStyle(.borderedProminent)
+            .padding(.bottom)
         }
         .padding()
     }
